@@ -362,7 +362,7 @@ class Trip2 extends Travel2{
         try {
             DB.placeStoreInDB(place, s1, s2, s3);
         } catch (Exception e) {
-            System.out.println();
+            System.out.println(e);
         }
     }
 }

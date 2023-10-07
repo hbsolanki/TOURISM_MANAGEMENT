@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class DB {
     private static Connection connect()throws Exception{
-            return DriverManager.getConnection("jdbc:mysql://localhost:3306/DBNAME", "root","");
+            return DriverManager.getConnection("jdbc:mysql://localhost:3306/amit", "root","8160062665");
     }
 
     public static void placeStoreInDB(String placeName,String p1,String p2,String p3)throws Exception{
